@@ -27,6 +27,16 @@ public class DevopsDemoController {
     public String hello() {
         return "hello ";
     }
+    
+     /**
+     * dev
+     *
+     * @return 打招呼
+     */
+    @GetMapping(value = "/dev")
+    public String dev() {
+        return "dev ";
+    }
 
 
     /**
